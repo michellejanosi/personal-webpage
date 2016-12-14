@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, rgba(27,33,51,0.749), rgba(27,33,51,0.749)), url(../img/mac-coffee.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  z-index: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+#main {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.inner {
+  overflow-x: hidden;
+  width: 45rem;
+  max-width: 100%;
+  padding: 3.90625rem 3.125rem;
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  margin-top: 0 !important;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: 'Lato';
+  letter-spacing: 0.65rem;
+  width: calc(100% + 0.65rem);
+  font-size: 3em;
+  line-height: 1.175;
+  font-weight: 300;
+}
+
+#about {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: rgba(255,255,255,0.761);
+  font-family: 'Raleway';
+  letter-spacing: 0.05rem;
+  width: calc(100% + 0.05rem);
+  font-size: 1em;
+  line-height: 1.675;
+  font-weight: 100;
+}
+
+hr {
+  width: 15%;
+  height: 1px;
+  line-height: 1rem;
+  position: relative;
+  padding: 0;
+  border: 0;
+  background-color: rgba(255,255,255,0.231);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+.icons {
+  cursor: default;
+  padding: 0;
+  letter-spacing: 0;
+  font-size: 1.5em;
+  width: calc(100% + 1.25rem);
+  margin-left: -0.625rem;
+}
+
+.icons li {
+  margin: 0.625rem;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.fa-free-code-camp {
+  color: #362828;
+  border: solid 1px #362828;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.fa-free-code-camp:hover {
+  color: #52361b;
+  border-color: #52361b;
+}
+
+.fa-twitter {
+  color: #4099ff;
+  border: solid 1px #4099ff;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.fa-twitter:hover {
+  color: #73b4ff;
+  border-color: #73b4ff;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+  border: solid 1px #007bb5;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.fa-linkedin:hover {
+  color: #009ee8;
+  border-color: #009ee8;
+}
+
+.fa-github {
+  color: #93b4c7;
+  border: solid 1px #93b4c7;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.fa-github:hover {
+  color: #c7ebff;
+  border-color: #c7ebff;
+}
+
+.fa-envelope {
+  color: #e6e6e6;
+  border: solid 1px #e6e6e6;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+}
+
+.fa-envelope:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+#credits {
+  margin-top: 1rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  color: rgba(168,168,168,0.761);
+  font-family: 'Raleway';
+  letter-spacing: 0.05rem;
+  width: calc(100% + 0.05rem);
+  font-size: 0.8em;
+  line-height: 1.675;
+  font-weight: 100;
+}
+
+.fa-heart {
+  color: #ff5252;
+}
+
+.fa-coffee {
+  color: #7c5852;
+}
