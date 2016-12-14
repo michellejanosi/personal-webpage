@@ -101,8 +101,8 @@ ul {
 }
 
 .fa-free-code-camp {
-  color: #362828;
-  border: solid 1px #362828;
+  color: #77d6d6;
+  border: solid 1px rgba(119,214,214,0.251);
   border-radius: 100%;
   width: 2em;
   height: 2em;
@@ -110,13 +110,13 @@ ul {
 }
 
 .fa-free-code-camp:hover {
-  color: #52361b;
-  border-color: #52361b;
+  color: #77d6d6;
+  border-color: #77d6d6;
 }
 
 .fa-twitter {
   color: #4099ff;
-  border: solid 1px #4099ff;
+  border: solid 1px rgba(64,153,255,0.251);
   border-radius: 100%;
   width: 2em;
   height: 2em;
@@ -124,13 +124,13 @@ ul {
 }
 
 .fa-twitter:hover {
-  color: #73b4ff;
-  border-color: #73b4ff;
+  color: #4099ff;
+  border-color: #4099ff;
 }
 
 .fa-linkedin {
   color: #007bb5;
-  border: solid 1px #007bb5;
+  border: solid 1px rgba(0,123,181,0.251);
   border-radius: 100%;
   width: 2em;
   height: 2em;
@@ -138,13 +138,13 @@ ul {
 }
 
 .fa-linkedin:hover {
-  color: #009ee8;
-  border-color: #009ee8;
+  color: #007bb5;
+  border-color: #007bb5;
 }
 
 .fa-github {
   color: #93b4c7;
-  border: solid 1px #93b4c7;
+  border: solid 1px rgba(147,180,199,0.251);
   border-radius: 100%;
   width: 2em;
   height: 2em;
@@ -152,22 +152,22 @@ ul {
 }
 
 .fa-github:hover {
-  color: #c7ebff;
-  border-color: #c7ebff;
+  color: #93b4c7;
+  border-color: #93b4c7;
 }
 
-.fa-envelope {
-  color: #e6e6e6;
-  border: solid 1px #e6e6e6;
+.fa-envelope-o {
+  color: #f299be;
+  border: solid 1px rgba(242,153,190,0.251);
   border-radius: 100%;
   width: 2em;
   height: 2em;
   line-height: 2em;
 }
 
-.fa-envelope:hover {
-  color: #ffffff;
-  border-color: #ffffff;
+.fa-envelope-o:hover {
+  color: #f299be;
+  border-color: #f299be;
 }
 
 #credits {
